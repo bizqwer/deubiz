@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <title> Shopping Mall </title>
+    <script src="https://kit.fontawesome.com/775c063c3d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./mystyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <style>
+      body{
+        margin: auto;
+        max-width: 980px;
+      }
+      section{ 
+        
+        display: flex;
+        margin-top: 20px;
+      }
+      .content{
+        flex:4;
+      }
+      aside{
+        flex:1;
+      }
+    .product1, .product2, .product3{
+            width: 200px;
+            height: 350px;
+            float: left;
+            border: 1px dotted red;
+            body {font-family: Arial, Helvetica, sans-serif;}
+      .h2{
+      text-align: center;
+    }
+  
+    </style>
+</head>
+
+<header id="home"> 
+    <a href="./index.html"> <h1> <img src="./photo/KakaoTalk_20221114_165722478.png" alt="title" width="300"></h1></a>
+  </header>
+
+<body>
+  <nav>
+     <!--ul>li*4>a{메인메뉴$$}--> 
+     <ul>
+      <li><a href="./index.html">메인</a></li>
+      <li><a href="./computer.html">장바구니</a></li>
+      <li><a href="../event/event.html">이벤트</a></li>
+      <li><a href="./qna.html">Q&A</a></li>
+     </ul>
+
+  </nav>
+  <h2 >Q&A 등록하기</h2>
+  <section class="shop">
+    
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">아이디</label>
+    <input type="text" id="fname" name="firstname" placeholder="필수 항목 입니다">
+
+    <label for="lname">이름</label>
+    <input type="text" id="lname" name="lastname" placeholder="필수 항목 입니다">
+
+    <label for="country">문의 종류</label>
+    <select id="country" name="country">
+      <option value="australia">상품문의</option>
+      <option value="canada">배송문의</option>
+      <option value="usa">기타문의</option>
+    </select>
+
+    <label for="subject">문의내용</label>
+    <textarea id="subject" name="subject" placeholder="내용을 작성해주세요" style="height:200px"></textarea>
+
+    <input type="submit" value="등록">
+  </form>
+</div>
+</section> <br>
+<footer> 
+  <h5 class="w3-center">사업자등록번호 220-81-62517 상점이름 키링상점 <br> 고객센터 505432342 동의대학교 경영정보학과</p>
+  <div class="sns">
+    <a href="https://mis.deu.ac.kr/mis/index.do">
+    <i class=" fa-sharp fa-solid fa-phone-volume w3-xlarge"></i></a>
+  </div>
+</footer>
+</body>
+</html>
+</head>
+<body>
+    
+</body>
+</html>
