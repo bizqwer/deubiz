@@ -21,7 +21,7 @@
   outline: 0;
   padding: 12px;
   color: white;
-  background-color: #5836bd;
+  background-color: rgba(105,36,152);
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -57,11 +57,12 @@ nav ul li{
     letter-spacing: 5px;
 }
 nav ul li:hover{
-    background-color: #6f00ff;
+    background-color: rgba(105,36,152);
+    color: #ffff;
 }
 nav ul{
-    border-top: 2px solid #6f00ff;
-    border-bottom: 2px solid #6f00ff;
+    border-top: 2px solid rgba(105,36,152);
+    border-bottom: 2px solid rgba(105,36,152);
     padding: 15px 20px;
     text-align: center;
 }
@@ -96,7 +97,7 @@ input[type=text], input[type=password] {
   
   /* Set a style for all buttons */
   button {
-    background-color: #5836bd;
+    background-color: rgba(105,36,152);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -217,7 +218,7 @@ input[type=text], input[type=password] {
   }
 
   input[type=submit] {
-    background-color: #5836bd;
+    background-color: rgba(105,36,152);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -226,7 +227,7 @@ input[type=text], input[type=password] {
   }
 
   input[type=submit]:hover {
-    background-color: #7047ee;
+    background-color: rgba(105,36,152);
   }
 
   .container {
